@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-dns-prefetch-control" content="off">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <title>Коммерческое помещение</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#faa61a">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#faa61a">
+
+    <link rel="preload" href="fonts/MuseoSansCyrl-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/MuseoSansCyrl-500.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/MuseoSansCyrl-900.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/PlayfairDisplay-Regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <link rel="stylesheet" href="css/style.min.css?250520212005" type="text/css">
+
+    <style type="text/css">
+.btn--yellow{background:#faa61a;border-color:#faa61a;color:#000}
+.btn--yellow:active:not([disabled]),.btn--yellow:hover:not([disabled]){background:#f59b05;border-color:#f59b05;color:#000}
+@media (max-width:767px){.header{position:fixed}.btn--call{position:absolute;right:0;top:0;z-index:2;width:5rem;height:5rem;font-size:0;color:transparent}.btn--call:before{content:"";position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='201' height='203' clip-rule='evenodd' fill-rule='evenodd' image-rendering='optimizeQuality' shape-rendering='geometricPrecision' text-rendering='geometricPrecision' viewBox='0 0 80749 81339' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M44899 57811L23676 36130c-3039-3105-2810-8382 509-11771 574-588 1528-1448 2362-2144l8066 8240-1724 1774c-995 1022-993 2657 6 3676l12083 12346c496 508 1175 792 1883 792l4 1c710-2 1391-288 1884-799l1635-1681 8046 8221c-691 876-1571 1895-2167 2504-3137 3201-8496 3446-11364 522zM40374 0C18112 0 0 18244 0 40670c0 22424 18112 40669 40374 40669 3860 0 7681-551 11354-1628 1394-412 2194-1876 1782-3272-410-1395-1881-2185-3270-1784-3190 941-6510 1418-9866 1418-19359 0-35107-15882-35107-35404S21015 5266 40374 5266c19360 0 35108 15881 35108 35403 0 8985-3767 17799-10350 24583l-4706-4707c942-1024 3053-3431 3769-4900 487-1002 292-2199-486-2996L52260 40954c-495-507-1175-793-1883-793h-5c-707 2-1389 289-1882 798l-1636 1681-8398-8580 1725-1774c996-1022 994-2657-5-3676L28726 16914c-806-827-2057-1024-3077-505-1713 873-4742 3770-5226 4266-5308 5418-5536 14005-512 19137l21222 21683c2353 2403 5543 3723 8978 3723 2101 0 4161-558 6053-1502 14 13 19 33 32 47l7074 7075c109 110 248 161 370 247 149 104 286 226 450 296 149 66 307 79 464 116 174 38 339 97 517 100 20 0 40 12 60 12 136 0 268-57 402-79 179-26 356-37 529-102 150-56 279-165 422-252 139-84 291-134 415-247 30-28 55-57 83-85 3-2 9-3 12-7 3-3 3-6 7-10 8737-7962 13748-18941 13748-30157C80749 18244 62639 1 40374 1V0z'/%3E%3C/svg%3E");background-size:100% 100%;width:3.1875rem;height:3.1875rem}}
+.header--fixed{-webkit-box-shadow:3px 3px 8px 0 hsla(202,5%,61%,.24);box-shadow:3px 3px 8px 0 hsla(202,5%,61%,.24)}
+    </style>
+  </head>
+  <body>
+    <section id="top" class="section s--promo" data-role="promo">
+      <a href="#top" class="link--block header-logo">
+            <img src="img/logo.png" class="img--cover" />
+          </a>
+      <div class="promo-title">
+        <h1>Всего</h1>
+        <img src="img/3.png" alt="">
+        <h1>
+          Коммерческое<br />
+          помещение
+        </h1>
+      </div>
+
+      
+
+    </section>
+
+    <section class="section s--about" data-role="about">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6">
+
+            <div class="about-content silent" data-role="lazy">
+              <div class="title">Стань первым</div>
+              <div class="subtitle">
+                Кто откроет<br />
+                здесь бизнес
+              </div>
+              <div class="list">
+                <div class="item">
+                  <div class="value"><strong>12</strong></div>
+                  <div class="text">домов</div>
+                </div>
+                <div class="item">
+                  <div class="value"> <strong>30</strong> <small>м</small></div>
+                  <div class="text">между домами</div>
+                </div>
+                <div class="item">
+                  <div class="value"><strong>3</strong></div>
+                  <div class="text">этажа</div>
+                </div>
+                <div class="item">
+                  <div class="value"><strong>3</strong> <small>м</small></div>
+                  <div class="text">высота потолков</div>
+                </div>
+              </div>
+              <img src="img/lazy1.png" class="lazy img--cover hidden-xs" />
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+
+            <div class="about-text">
+              <div class="item">
+                <img src="img/MP_Commerce_0003s_0001_Layer-8.png" retina="MP_Commerce_0003s_0001_Layer-8.png" class="icon" data-role="lazyimg" />
+                Сейсмостойкость домов – 10 баллов.
+              </div>
+              <div class="item">
+                <img src="img/MP_Commerce_0003s_0000_Vector-Smart-Object 1.png" retina="MP_Commerce_0003s_0000_Vector-Smart-Object 1.png" class="icon" role="lazyimg" />
+                Территория огорожена, охраняется<br /> и находится под видеонаблюдением.
+              </div>
+            </div>
+
+            <div class="about-info silent" data-role="lazy">
+              <div class="title">
+                Рассрочка<br />
+                от застройщика
+              </div>
+              <div class="text">Схемы оплаты:</div>
+              <div class="line_white"></div>
+              <ul class="list--unstyled">
+                <li>70/30</li>
+                <li>80/20</li>
+                <li>90/10</li>
+              </ul>
+              <div class="expiry">
+                СРОК РАСРОЧКИ:<br />
+                IV квартал 2021 г.
+              </div>
+              <img data-src="img/about-bg2.jpg" data-retina="img/about-bg2@2x.jpg" class="lazy img--cover hidden-xs" />
+              <img data-src="img/about-bg2-phone.jpg" data-retina="img/about-bg2-phone@2x.jpg" class="lazy img--cover visible-xs" />
+            </div>
+
+            <div class="about-address visible-xs">
+              <img src="img/MP_Commerce_0009s_0003_PIN 1.png" class="icon" data-role="lazyimg" />3-этажный жилой комплекс<br>
+              <b>выше Аль-Фараби</b>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="about-border">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <div class="line line-4"></div>
+      </div>
+
+      <img data-src="img/about-img-1.png" data-retina="img/about-img-1@2x.png" class="about-img img-1 lazy hidden-xs" data-role="lazyimg" />
+      <img data-src="img/about-img-2.png" data-retina="img/about-img-2@2x.png" class="about-img img-2 lazy hidden-xs" data-role="lazyimg" />
+      <img data-src="img/about-img-3.png" data-retina="img/about-img-3@2x.png" class="about-img img-3 lazy hidden-xs" data-role="lazyimg" />
+
+      <img data-src="img/about-img-1-phone.png" data-retina="img/about-img-1-phone@2x.png" class="about-img img-1 lazy visible-xs" data-role="lazyimg" />
+      <img data-src="img/about-img-2-phone.png" data-retina="img/about-img-2-phone@2x.png" class="about-img img-2 lazy visible-xs" data-role="lazyimg" />
+      <img data-src="img/about-img-3-phone.png" data-retina="img/about-img-3-phone@2x.png" class="about-img img-3 lazy visible-xs" data-role="lazyimg" />
+    </section>
+
+    <section class="section s--expiry" data-role="expiry">
+      <div class="container">
+
+        <div class="expiry-content">
+          <strong>100<sup>%</sup></strong>
+          <small>квартир продано</small>
+        </div>
+
+        <div class="expiry-info">
+          Срок сдачи<br>
+          <strong>III квартал<br /> 2021 года</strong>
+        </div>
+
+      </div>
+
+      <div class="expiry-bg hidden-xs" data-role="lazy">
+        <img data-src="img/expiry-bg.jpg" class="lazy img--cover" />
+      </div>
+
+      <div class="expiry-bg visible-xs" data-role="lazy">
+        <img data-src="img/expiry-bg-phone.jpg" data-retina="img/expiry-bg-phone@2x.jpg" class="lazy img--cover" />
+      </div>
+
+    </section>
+
+    <section class="section s--benefits" data-role="benefits">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-5 col-md-5">
+
+            <div class="benefits-list">
+              <div class="block-in">
+                <div class="benefits-item">
+
+                  <div class="icon silent" data-role="lazy">
+                    <img src="img/MP_Commerce_0002s_0000_Layer-111.png" data-retina="" class="lazy img--cover" />
+                  </div>
+
+                  <div class="text">Нет конкуренции</div>
+
+                </div>
+                <div class="benefits-item">
+
+                  <div class="icon silent" data-role="lazy">
+                    <img src="img/MP_Commerce_0002s_0001_Layer-10.png" data-retina="" class="lazy img--cover" />
+                  </div>
+
+                  <div class="text">Выгодные условия<br /> для развития бизнеса</div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 col-md-7">
+
+            <div class="benefits-content silent" data-role="lazy">
+              <div class="block-title">
+                В жилом комплексе<br />
+                востребованы:
+              </div>
+              <div class="block-in">
+                <ul class="list--unstyled">
+                  <li>Супермаркет</li>
+                  <li>Салон красоты</li>
+                  <li>Студия детского творчества</li>
+                  <li>Ателье</li>
+                  <li>Бытовые услуги</li>
+                </ul>
+              </div>
+              <img data-src="img/benefits-bg.jpg" data-retina="img/benefits-bg@2x.jpg" class="lazy img--cover hidden-xs" />
+              <img data-src="img/benefits-bg-phone.jpg" data-retina="img/benefits-bg-phone@2x.jpg" class="lazy img--cover visible-xs" />
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="benefits-border">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+      </div>
+
+      <img data-src="img/benefits-img.png" data-retina="img/benefits-img@2x.png" class="lazy benefits-img" data-role="lazyimg" />
+    </section>
+
+    <section class="section s--commerce" data-role="commerce">
+      <div class="container">
+
+        <div class="row" id="appCommerce">
+
+          <div class="col-lg-4 col-md-5">
+
+            <div class="commerce-title">
+              Коммерческое<br />
+              помещение
+            </div>
+
+            <div class="commerce-desc hidden-xs">
+              <label>Площадь:</label>
+              <ul class="list--inline">
+                <li v-for="(area, index) in areas" v-bind:class="{'active': area==selectedArea}">
+                  <a href="#" class="link--block" @click.prevent="selectedArea=area">{{ area|formatArea }} м<sup>2</sup></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="commerce-desc visible-xs">
+              <label>Площадь:</label>
+              <ul class="list--inline">
+                <li v-for="(area, index) in areas" v-bind:class="{'active': area==selectedArea}">
+                  <a href="#" class="link--block" @click.prevent="selectedArea=area">{{ area|formatArea }} м<sup>2</sup></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="commerce-desc">
+              <label>Дом:</label>
+              <strong>{{ flat.block }}</strong>
+            </div>
+
+            <div class="commerce-price hidden-xs">
+              <label>Стоимость</label>
+              <strong>{{ flat.price|numberFormat }} тг</strong>
+            </div>
+
+            <div class="commerce-button hidden-xs">
+              <button type="button" class="btn btn--primary" data-toggle="modal" data-target="#modal--call">
+                Перезвонить мне
+              </button>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 col-md-7">
+
+            <img src="img/MP_Commerce_0000s_0000_Layer-113.png" class="commerce-roza" />
+
+            <div class="commerce-viewport" v-bind:class="{'loading':!imgLoaded}">
+              <a v-bind:href="flat.img" class="link--block link--zoom" data-fancybox>
+                <div class="img">
+                  <img src="img/Group.png" @load="imgLoaded=true" />
+                </div>
+              </a>
+            </div>
+            <div class="commerce-plan">
+              <img src="img/MP_Commerce_0000s_0001_Layer-112.jpg" class="img--cover" />
+            </div>
+
+            <div class="btn">
+              <a v-bind:href="flat.img" class=" btn--white btn--download" download>
+                <img src="img/MP_Commerce_0006s_0003_Vector-Smart-Object.png" alt=""> <span>Скачать<br class="hidden-xs" /> планировку</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      var COMMERCE_DATA = [{
+        "area": 101.58,
+        "block": 3,
+        "price": 53837400,
+        "img": "101-58.png",
+        "plan": "101-58-plan.png",
+        "status": true
+      }, {
+        "area": 55.07,
+        "block": 6,
+        "price": 29187100,
+        "img": "55-07.png",
+        "plan": "55-07-plan.png",
+        "status": true
+      }, {
+        "area": 93.69,
+        "block": 10,
+        "price": 49655700,
+        "img": "93-69.png",
+        "plan": "93-69-plan.png",
+        "status": true
+      }];
+    </script>
+
+    <section class="section s--points" data-role="points">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6">
+
+            <div class="points-title">Характеристики</div>
+
+            <div class="points-content silent" data-role="lazy">
+              <ul class="list--unstyled">
+                <li>Без перегородок</li>
+                <li>Черновой<br /> вариант</li>
+                <li>Стеклопакеты</li>
+                <li>Отопление<br /> электрическое</li>
+              </ul>
+              <img data-src="img/points-bg.jpg" data-retina="img/points-bg@2x.jpg" class="lazy img--cover hidden-xs" />
+              <img data-src="img/points-bg-phone.jpg" data-retina="img/points-bg-phone@2x.jpg" class="lazy img--cover visible-xs" />
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+
+            <div class="points-img hidden-xs" data-role="lazy">
+              <img src="img/MP_Commerce_0007s_0002_Depositphotos_233465192_xl-2015.jpg" data-retina="img/points-img@2x.jpg" class="lazy img--cover" />
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="points-border">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+        <div class="line line-4"></div>
+      </div>
+
+    </section>
+
+    <section class="section s--contacts" data-role="contacts">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-5 col-md-5 col-lg-offset-7 col-md-offset-7">
+
+            <div class="contacts-content">
+              <img src="img/MP_Commerce_0009s_0003_PIN 1.png" class="icon hidden-xs" data-role="lazyimg" />
+              <div class="phones">
+                <a href="tel:+77058886557">+7 705 888 65 57</a>
+              </div>
+              <div class="address">
+                Алматы, Бостандыкский район,<br />
+                мкр-н Ерменсай (выше Аль-Фараби),<br />
+                ул. Талапты, уг. ул. Жамбыла
+              </div>
+            </div>
+
+            <div class="contacts-info">
+              <img src="img/MP_Commerce_0009s_0001_PIN 1.png" class="icon hidden-xs" data-role="lazyimg" />
+              Отдел продаж находится<br class="hidden-xs" />
+              на территории жилого<br class="hidden-xs" />
+              комплекса
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="contacts-map">
+        <div class="map" data-role="map" data-latlng="[43.186589, 76.919907]" data-marker="img/map-pin-1.png" data-sizes="[60, 70]" data-offset="0" data-zoom="15">
+        </div>
+        <div class="hidden" data-role="office" data-latlng="[43.186735, 76.918983]" data-marker="img/map-pin-2.png" data-sizes="[29, 36]" data-offset="0">
+        </div>
+      </div>
+
+      <div class="contacts-border hidden-xs">
+        <div class="line line-1"></div>
+      </div>
+
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 hidden-xs">
+
+            <div class="footer-mode">
+              <h6>Режим работы</h6>
+              Пн-Пт: с 10:00 до 19:00<br />
+              Сб-Вс: с 10:00 до 17:00
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+
+            <div class="footer-copyright">
+              © ЖК Mountain Park 2020
+            </div>
+
+            <div class="nav-social">
+
+              <label>Мы в соцсетях</label>
+
+              <ul class="list--inline">
+
+                <li>
+                  <a href="https://www.facebook.com/mountain.park.almaty" class="link--block silent" target="_blank" rel="noopener" data-role="lazy">
+                    <img src="img/MP_Commerce_0009s_0000s_0006_facebook.png" class="lazy img--cover" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/mountainpark_dom/" class="link--block silent" target="_blank" rel="noopener" data-role="lazy">
+                    <img src="img/MP_Commerce_0009s_0000s_0005_insta.png" class="lazy img--cover" />
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <a href="#top" class="link--block footer-logo visible-md-inline-block visible-xs-inline-block">
+              <img src="img/logo.svg" class="img--cover" />
+            </a>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 hidden-md">
+
+            <a href="#top" class="link--block footer-logo hidden-xs">
+              <img src="img/logo.png" class="img--cover" />
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+
+    <div class="modal fade modal--call" tabindex="-1" role="dialog" id="modal--call">
+      <div class="modal-dialog" role="document">
+        <div class="modal-dialog-in">
+          <div class="modal-content">
+
+            <button type="button" class="btn--unstyled btn--close" data-dismiss="modal">
+              <i class="icon icon-close silent" data-role="lazy">
+                <img data-src="img/icon-close.svg" class="lazy img--cover" />
+              </i>
+            </button>
+
+            < <div class="row">
+             div class="modal-body">
+                <div class="col-lg-7 col-md-6 col-sm-8 col-lg-offset-5 col-md-offset-6 col-sm-offset-4">
+                  <form action="order.php" class="form--call" data-form="order">
+
+                    <fieldset data-role="data">
+
+                      <div class="suptitle">
+                        <b>Заинтересовались?</b>
+                      </div>
+
+                      <div class="title">
+                        <b>Мы вам перезвоним!</b>
+                      </div>
+
+                      <div class="row">
+
+                        <div class="col-lg-7 col-md-7 col-sm-7">
+                          <div class="form-group group" data-role="group">
+                            <div class="controls">
+                              <input type="text" class="form-control control" name="name" autocomplete="off" placeholder="Введите имя" />
+                              <div class="form-line"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-sm-5">
+                          <div class="form-group group" data-role="group">
+                            <div class="controls">
+                              <input type="tel" class="form-control control" name="phone" autocomplete="off" placeholder="+7" data-inputmask="'alias':'phone', 'mask':'+7 999 999 99 99'" />
+                              <div class="form-line"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+
+                      <div class="form-controls">
+                        <button type="submit" class="btn btn--primary btn--block btn--submit">
+                          <span>Перезвонить мне</span>
+                        </button>
+                      </div>
+
+                    </fieldset>
+
+                    <fieldset data-role="response" style="display: none;">
+                      <div class="form-response response">
+                        <h5>Спасибо!</h5>
+                        <b>Мы Вам перезвоним</b>
+                      </div>
+                    </fieldset>
+
+                  </form>
+                  <div class="modal-bg silent visible-xs" data-role="lazy">
+                    <img data-src="img/pic-feedback-phone.png" data-retina="img/pic-feedback-phone@2x.png" class="lazy img--cover" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-border hidden-xs">
+              <div class="line h l r t"></div>
+              <div class="line v t r b"></div>
+              <div class="line h l r b"></div>
+              <div class="line v l t b"></div>
+            </div>
+
+            <div class="modal-bg silent hidden-xs" data-role="lazy">
+              <img data-src="img/pic-bucket.png" data-retina="img/pic-bucket@2x.png" class="lazy img--cover" />
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <span class="visible-xs" data-device="phone"></span>
+
+    <script type="text/javascript">
+      var COMMERCE = {
+        "path": "img/flats/"
+      };
+    </script>
+
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=basic&lazy=true" defer async></script>
+
+    <script src="js/interface.min.js?250520212005" type="text/javascript"></script>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+	$('a[href^="#"').on('click', function() {
+		var hash = $(this).attr('href');
+		
+		if($(hash).length){
+			$('html, body').animate({
+				'scrollTop': $(hash).offset().top
+			});
+		}
+		
+		return false;
+	});
+	
+	function f_hf(){
+		var e = $('.header'), i = $(window).scrollTop();
+		
+		if(e.css('position')=='fixed'){
+			if(i>=1){e.addClass('header--fixed');}else{e.removeClass('header--fixed');}
+			e.css('background', 'rgba(255, 255, 255, '+((i>0)?100*i/e.height()/100:0)+')');
+		}
+	}
+	
+	f_hf(); $(window).on('scroll', f_hf);
+});
+    </script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  
+  fbq('init', '368565677579098');
+  fbq('track', 'PageView');
+</script>
+<noscript><img src="https://www.facebook.com/tr?id=368565677579098&ev=PageView&noscript=1" width="1" height="1"></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M7DJ5NC');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7DJ5NC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151007782-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-151007782-3');
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(55963534, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55963534" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </body>
+</html>
